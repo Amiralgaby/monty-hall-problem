@@ -6,9 +6,11 @@ Script bash pour tester la probabilité de gagner selon la stratégie de garder 
 
 ## Usage
 Il y a un script **monty.sh** pour tester un seul appel.
-  ./monty.sh
-
+```bash
+./monty.sh
+```
 Il y a un script **prog.sh** qui fait 15 appels et calcul le pourcentage de bonne réponses.
-  ./prog.sh
-
+```bash
+./prog.sh
+```
 Selon votre stratégie vous devez avoir un pourcentage se rapporchant soit de 1/3 (garder la porte choisie) soit de 2/3 (changer de porte après qu'une chèvre est dévoilée).
